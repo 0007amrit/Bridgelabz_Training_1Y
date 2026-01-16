@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Arithmeticalop {
+   public Arithmeticalop() {
+   }
+
+   public static void main(String[] var0) {
+      Scanner var1 = new Scanner(System.in);
+      System.out.println("Enter the value of number1 : ");
+      int var2 = var1.nextInt();
+      System.out.println("Enter the value of number2 : ");
+      int var3 = var1.nextInt();
+      System.out.println("The Value of Sum is  : " + (var2 + var3));
+      System.out.println("The Value of Subtraction is  : " + (var2 - var3));
+      System.out.println("The Value of Multiplication is  : " + var2 * var3);
+      System.out.println("The Value of Division is  : " + var2 % var3);
+   }
+}
