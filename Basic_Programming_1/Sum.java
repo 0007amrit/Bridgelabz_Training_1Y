@@ -4,4 +4,5 @@ public class Sum{
      int a=12;
      int b=25;
      int sum =a+b; 
-     System.out.print("Addition of two number :-" +sum);}}
+     System.out.print("Addition of two number :-" +sum);
+ }}
