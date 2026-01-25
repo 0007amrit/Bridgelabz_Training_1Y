@@ -1,4 +1,4 @@
-public class Sum{
+class Sum{
  
  public static void main(String arg[]) {
      int a=12;
