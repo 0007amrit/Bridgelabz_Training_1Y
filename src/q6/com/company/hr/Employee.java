@@ -1,0 +1,28 @@
+package q6.com.company.hr;
+
+public class Employee {
+
+    private int id;
+    private String name;
+    private String department;
+    private double salary;
+
+    public Employee(int id,String name,String department,double salary){
+        this.id=id;
+        this.name=name;
+        this.department=department;
+        this.salary=salary;
+    }
+
+    public double getSalary(){
+        return salary;
+    }
+
+    public void setSalary(double salary){
+        this.salary=salary;
+    }
+
+    public void display(){
+        System.out.println(id+" "+name+" "+department+" "+salary);
+    }
+}
